@@ -1,7 +1,8 @@
 import React from 'react'
+import { withProviders } from './providers'
 
 const App = () => {
     return <div className="App">Hello world</div>
 }
 
-export default App
+export default withProviders(App)
